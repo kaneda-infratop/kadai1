@@ -70,3 +70,31 @@ footer{
   background-color:#AAAAAA;
   height: 50px;
 }
+
+/* スマートフォンサイズ（425px）以下の際に適用される設定 */
+@media screen and (max-width: 768px){
+  header{
+    width: 100%;
+  }
+
+  main{
+    width: 100%;
+    margin:50px auto;
+    display:block;
+  }
+
+  .main-box{
+  width: 90%;
+  margin-top: 20px;
+  position: relative;
+  background-color: #eee;
+  }
+
+  .main-box:frist-child{
+    margin-top:0;
+  }
+
+
+
+
+}
